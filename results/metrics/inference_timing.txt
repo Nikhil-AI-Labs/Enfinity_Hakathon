@@ -1,0 +1,12 @@
+INFERENCE TIMING STATISTICS
+============================================================
+TTA Mode:              ENABLED
+TTA Scales:            [0.75, 1.0, 1.25, 1.5]
+Device:                cuda
+Total Images:          1002
+Batch Size:            4
+Total Inference Time:  1313.68s
+Avg Time per Batch:    5.234s
+Avg Time per Image:    1.311s
+Throughput (FPS):      0.76
+============================================================

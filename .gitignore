@@ -1,0 +1,72 @@
+# =============================================================================
+# DPT Offroad Segmentation — .gitignore
+# =============================================================================
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+pip-wheel-metadata/
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Model Weights (too large for git — use HuggingFace Hub or Kaggle) ────────
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Except: if you explicitly want to track a small weights file, use:
+# !my_small_weights.pth
+
+# ── Datasets & Raw Data ───────────────────────────────────────────────────────
+data/
+datasets/
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# ── Inference Output (too large — generated locally) ─────────────────────────
+output/
+predictions/
+results/test/masks/
+results/test/masks_color/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE & Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs & Temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
+tmp/
+temp/
+
+# ── Torch Hub Cache ───────────────────────────────────────────────────────────
+torch_hub_cache/
+hub/
