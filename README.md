@@ -811,8 +811,8 @@ If you use this work in your research or projects, please cite:
 ```bibtex
 @misc{dpt-offroad-segmentation-2024,
   title   = {DINOv2 + DPT with LoRA for Offroad Semantic Segmentation},
-  author  = {Nikhil-AI-Labs},
-  year    = {2024},
+  author  = {Nikhil-AI-Labs, ayushman-svnit, rrrr08, rushangbagda},
+  year    = {2026},
   url     = {https://github.com/Nikhil-AI-Labs/Enfinity_Hakathon}
 }
 ```
